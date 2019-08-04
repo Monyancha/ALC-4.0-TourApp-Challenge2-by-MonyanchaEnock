@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     >
+
+    <item
+        android:id="@+id/menu_bookmark"
+        android:icon="@drawable/fav_unfav"
+        android:title="@string/app_name"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_rating"
+        android:icon="@drawable/ic_show_review"
+        android:title="@string/app_name"
+        app:showAsAction="always" />
+
+</menu>

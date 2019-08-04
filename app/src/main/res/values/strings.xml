@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">ALC 4.0 TourApp</string>
+    <string name="tag_line">Find Your Vacation</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="invalid">Invalid sign in.</string>
+
+    <!--Drawer Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_category">Cities</string>
+    <string name="menu_near">Nearby Vacation Finder</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="menu_recent">Latest Places</string>
+    <string name="menu_all">All Places</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_more">More Apps</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="dialog_error">Error...</string>
+    <string name="dialog_warning">Warning...</string>
+    <string name="dialog_success">Success</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_no">NO</string>
+    <string name="login_require">Login require click OK and go to login screen</string>
+    <string name="logout_msg">Are you sure you want to logout?</string>
+    <string name="dialog_logout">Logout</string>
+    <string name="location_permission">Location permission is required to find your location, without that you will not get optimal results</string>
+    <string name="permission_request">You cannot share images without requested permission</string>
+    <string name="detail_location">Distance</string>
+    <string name="no_video">No video</string>
+    <string name="no_more">No More Data</string>
+
+    <string name="no_data_found">No data found!!</string>
+    <string name="no_gallery_found">No Galley Image found!!</string>
+    <string name="search_place">Search Place</string>
+    <string name="rate_place_title">Rating</string>
+    <string name="title_search">Find Your Vacation</string>
+
+    <string name="detail_phone">Phone</string>
+    <string name="detail_video">Videos</string>
+    <string name="detail_direction">Direction</string>
+    <string name="detail_share">Share</string>
+    <string name="tap_to_rate">Tap to Rate</string>
+    <string name="detail_photo">Photos Gallery</string>
+
+    <string name="version">Version</string>
+    <string name="author">Author</string>
+    <string name="company">Developer</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+
+    <string name="notification_title">Enable Push Notification</string>
+    <string name="share_message">Download app this link</string>
+    <string name="share_place_title">Place name :</string>
+    <string name="share_place_address">Address :</string>
+    <string name="share_place_phone">Phone :</string>
+    <string name="no_favorite">No favorite found..</string>
+    <string name="title_review">Reviews</string>
+    <string name="no_review">No review found</string>
+    <string name="rating">Rate &amp; Reviews</string>
+    <string name="rating_title">Your Message :-</string>
+    <string name="write_here">Write Here</string>
+    <string name="submit">Submit</string>
+    <string name="require_review">Add review</string>
+    <string name="loading">Loading..</string>
+
+    <string name="select_preference">Select Your Preferences</string>
+    <string name="select_category">Select City</string>
+    <string name="select_message">The distance of places around me</string>
+    <string name="select_distance">Distance(Km)</string>
+    <string name="select_search_btn">Search</string>
+    <string name="select_type_home">Select City</string>
+    <string name="no_near">No near place found..</string>
+    <string-array name="dis_array">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+    </string-array>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_into_continue">Sign in to continue</string>
+    <string name="forgot_description">Enter your email address below and  we\'ll send you email with password</string>
+    <string name="button_text_forgot_password">Forgot your password?</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="password_login">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="skip">Skip</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="no_account">Don\'t Have an Account? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="already_account">Already Have an Account? </string>
+    <string name="send">Send</string>
+    <string name="name_login">Name</string>
+    <string name="email_login">Email</string>
+    <string name="phone_login">Phone</string>
+    <string name="network_msg">No Network Connection!!!</string>
+    <string name="restart_msg">Please restart your app something went to wrong</string>
+
+
+    <string name="favourite_remove">Remove from favorite</string>
+    <string name="favourite_add">Added to favorite</string>
+
+    <string name="more_app_url">https://sasasoftech.com/</string>
+
+    <string name="gdpr_privacy_link">https://sasasoftech.com/</string>
+
+    <!--if you want rtl change value of isRTL to true else false-->
+    <string name="isRTL">false</string>
+    <string name="license_msg">You are using invalid License or Package name is already in use, for more information contact us: enocmonyancha@gmail.com</string>
+
+    <!-- youtube -->
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="youtube_api_key">AIzaSyAYJwy6nzCFqgr5LtihRI3YuVBb_34aprw</string>
+    <string name="default_notification_channel_id">App Name</string>
+
+    <string name="exit_yes">Yes</string>
+    <string name="exit_no">No</string>
+    <string name="exit_msg">Are You Sure You Want To Quit?</string>
+</resources>

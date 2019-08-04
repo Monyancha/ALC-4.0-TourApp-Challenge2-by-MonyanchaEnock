@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "113885479759",
+    "firebase_url": "https://yozapp-f0796.firebaseio.com",
+    "project_id": "app-f0796",
+    "storage_bucket": "app-f0796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113885479759:android:47a822f9fe886cc6",
+        "android_client_info": {
+          "package_name": "com.app.placefinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113885479759-6tlnrl6l3d301lnipdrt9itsf233mvsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgrwDetaOeBKUOaecHrYRXYm0P85m1DEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

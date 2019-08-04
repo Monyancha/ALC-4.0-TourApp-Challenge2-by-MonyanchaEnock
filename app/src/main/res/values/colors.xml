@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800080</color>
+    <color name="colorPrimaryDark">#ff6900</color>
+    <color name="colorAccent">#D107D1</color>
+
+    <color name="bg">#E7E7E7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="drawer_bg">#FFFFFF</color>
+    <color name="black">#575757</color>
+    <color name="gray">#878787</color>
+    <color name="search_bg">#FFFFFF</color>
+    <color name="line_detail">#D6D6D6</color>
+    <color name="green">#800080</color>
+    <color name="review_bg">#ffffff</color>
+    <color name="orange">#FF9600</color>
+    <color name="login_line">#A4A6A3</color>
+    <color name="white_light">#E4E6E5</color>
+    <color name="image_full_bg">#000000</color>
+
+    <color name="navigation_default">#6A6A6A</color>
+    <color name="navigation_checked">#800080</color>
+
+    <color name="review_list_bg_1">#E5E5E5</color>
+    <color name="review_list_bg_2">#F2F2F2</color>
+
+    <color name="cat_bg_1">#800080</color>
+    <color name="cat_bg_2">#ff6900</color>
+
+    <color name="dialog_color">#800080</color>
+    <color name="dialog_text">#353535</color>
+    <color name="dialog_white_text">#FFFFFF</color>
+
+    <color name="about_title">#575757</color>
+    <color name="about_text">#8b8b8b</color>
+
+    <color name="switch_activated">#ff6900</color>
+    <color name="switch_normal">#888D9F</color>
+</resources>

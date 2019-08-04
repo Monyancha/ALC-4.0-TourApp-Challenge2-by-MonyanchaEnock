@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85000000">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardUseCompatPadding="false"
+        card_view:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+         android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/review_header_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rating"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:src="@drawable/d_close" />
+
+        </RelativeLayout>
+
+        <com.github.ornolfr.ratingview.RatingView
+            android:id="@+id/ratingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            app:drawable_empty="@drawable/ic_star_empty"
+            app:drawable_filled="@drawable/ic_star_filled"
+            app:drawable_half="@drawable/ic_star_half"
+            app:drawable_margin="2dp"
+            app:drawable_size="40dp"
+            app:is_indicator="false"
+            app:max_count="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:text="@string/rating_title"
+            android:textColor="@color/about_title"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_d_review"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/review_border"
+            android:hint="@string/write_here"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textCursorDrawable="@drawable/cursor_black"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_review_background"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/submit"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
